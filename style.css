@@ -113,7 +113,7 @@ body {
 
 .nav-link:hover {
     color: hotpink;
-    font-size: 17px;
+
     transition: .8s;
 }
 
@@ -165,7 +165,7 @@ body {
 
 .contacts__item:hover {
     color: hotpink;
-    font-size: 17px;
+
     transition: .8s;
 }
 
@@ -205,7 +205,7 @@ body {
 
 .courses__item:hover {
     color: hotpink;
-    font-size: 17px;
+
     transition: .8s;
 }
 
@@ -214,7 +214,7 @@ body {
 
 .projects__item:hover {
     color: hotpink;
-    font-size: 17px;
+
     transition: .8s;
 }
 
