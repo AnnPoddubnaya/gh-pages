@@ -92,9 +92,9 @@ body {
     background: #aab7b7;
 }
 
-.header__image {
+.section__image {
     width: 200px;
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -111,13 +111,13 @@ body {
     color: #6f8686;
 }
 
+
+
 .nav-link:hover {
     color: hotpink;
-
     transition: .8s;
 }
 
-.main {}
 
 .main__container {
     display: flex;
@@ -139,18 +139,13 @@ body {
     align-items: center;
 }
 
-.section__logo {}
 
 .section__image {
     width: 200px;
-    height: 200px;
+    height: 240px;
     border-radius: 50%;
 }
 
-
-.section__title {}
-
-.section__subtitle {}
 
 /* --------------------contacts-------------------- */
 .section-contacts {}
@@ -163,15 +158,27 @@ body {
 
 .contacts__list {}
 
+.contacts__item {
+    display: flex;
+    align-items: center;
+}
+
 .contacts__item:hover {
     color: hotpink;
-
     transition: .8s;
 }
 
 .contacts__image {
     width: 20px;
     height: 20px;
+}
+
+.contacts__map {
+    padding: 0 10px;
+}
+
+.contacts__link {
+    padding: 0 10px;
 }
 
 /* --------------------summary-------------------- */
@@ -188,15 +195,24 @@ body {
 
 .skills__list {}
 
-.skills__item {}
+.skills__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 .skills__image {
     width: 20px;
     height: 20px;
+    /* padding: 0 10px; */
 }
 
 /* --------------------code-------------------- */
 .section-code {}
+
+code {
+    font-family: monospace;
+}
 
 /* --------------------courses-------------------- */
 .section-courses {}
@@ -254,7 +270,7 @@ body {
 }
 
 .footer__item {
-    color: black;
+    /* color: black; */
 }
 
 .footer__img {
